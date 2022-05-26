@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+
+    /* background-color: black; */
+}
+
+.card1{
+    height: 500px;
+    width: 300px;
+    border: 2px solid whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIbygXQVyBECbZzvSayLGbP2a7yofZVd4zCg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 20rem;
+    
+}
+
+.card2{
+    height: 500px;
+    width: 300px;
+    border: 2px solid whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url(https://www.popsci.com/uploads/2019/03/18/K34ZZZQ24YOOS2IX7UO4OU6QDM-scaled.jpg?auto=webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.card1:hover{
+    opacity: 0.8;
+    width: 350px;
+    height: 575px;
+    z-index: 5;
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+}
+
+.card2:hover{
+    opacity: 0.8;
+    width: 350px;
+    height: 575px;
+    z-index: 2;
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+}
+
+/* styling buttons */
+.btn1,.btn2{
+    cursor: pointer;
+    height: 60px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.btn1:hover,.btn2:hover{
+    /* background-color: black; */
+    background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
+    color: black;
+    width: 125px;
+    height: 75px;
+    font-size: 1.5rem;
+    transition:linear;
+    transition-duration: 0.2s;
+}

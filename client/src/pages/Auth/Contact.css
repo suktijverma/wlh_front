@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    /* display: flex; */
+    border: 2px solid khaki;
+    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.message-section{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 500px;
+    background-color: rgba(98,0,234);
+
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.message-section .message-heading{
+    padding: 10px;
+}
+
+.form{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(98,0,234);
+
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    background-color: #6200ea;
+    color: white;
+
+
+}
+
+.form-section input{
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    margin: 2px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgba(98,0,234);
+
+}
+
+.form-section textarea{
+    margin: 2px;
+    border: none;
+    background-color: rgba(98,0,234);
+
+}
+
+.submit-button{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    margin: 10px;
+    /* border: 2px solid black; */
+}
+
+.submit-button button{
+    width: 30%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.contact-info{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+.contact-info table{
+    border: 2px solid black;
+    /* height: 100px;
+    width: 100px; */
+}

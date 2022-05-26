@@ -1,0 +1,36 @@
+.member-card{
+    height: 350px;
+    width: 300px;
+    /* border: 2px solid khaki; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.upper-block{
+    text-align: center;
+}
+
+.card-image{
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.middle-block h3,h4{
+    text-align: center;
+}
+
+.media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.instagram{
+    color: #7A44C2;
+    height: 30px;
+    width: 30px;
+}
+
+.linkedIn{
+    color: #0077B5;
+    height: 30px;
+    width: 30px;
+}

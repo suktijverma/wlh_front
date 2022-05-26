@@ -1,0 +1,7 @@
+.btn{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
+}

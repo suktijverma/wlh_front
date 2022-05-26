@@ -1,0 +1,33 @@
+.heading{
+    background-color: grey;
+    letter-spacing: 2px;
+    /* word-spacing:22rem; */
+    text-align: center;
+}
+
+.heading h1{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.heading h1 span{
+    font-size: 3rem;
+}
+
+.team{
+    padding-left: 20px;
+}
+
+.section-heading{
+    text-align: center;
+}
+
+.mentor{
+    display: flex;
+    justify-content: center;
+}
+
+.teamMember{
+    display: flex;
+    justify-content: space-evenly;
+}
